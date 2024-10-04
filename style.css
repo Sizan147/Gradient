@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'inter';
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 100;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --dark-color: #a4a4a4;
+    --light-color: #dddddd;
+}
+body{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+section{
+    width: 100vw;
+    height: 100svh;
+    background-image: linear-gradient(0deg, #814146  0%, #4052ab 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    .buttons{
+        display: flex;
+        gap: 3rem;
+
+        button{
+            padding: .8rem 1.5rem;
+            color: #000000;
+            min-width: 14rem;
+            min-height: 4rem;
+            border-radius: 10px;
+            border: none;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+
+        button:hover{
+            cursor: pointer;
+            color: #ffffff;
+        }
+
+        .b1{
+            background-color:  #814146 ;
+        }
+
+        .b2{
+            background-color:  #4052ab  ;
+        }
+    }
+
+    .code-copy{
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+        cursor: pointer;
+    }
+    
+    .copyCode{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 2rem;
+        border-radius: 9px;
+        border-left: 3px solid white;
+        width: 40%;
+        min-width: 31rem;
+        height: 10rem;
+        background-color: #ffffff39;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
