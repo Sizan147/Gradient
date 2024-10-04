@@ -12,8 +12,8 @@ const hexNumber = () =>{
     return color;
 }
 let changeHex = () =>{
-    document.querySelector(".body-sec").style.backgroundImage = `linear-gradient(0deg, ${rgb1} , ${rgb2} 100%)`;
-    document.querySelector(".copyCode").innerHTML = `background-image: linear-gradient(0deg, ${rgb1} 0%, ${rgb2} 100%);`;
+    document.querySelector(".body-sec").style.backgroundImage = `linear-gradient(to right, ${rgb1} 0%, ${rgb2} 100%)`;
+    document.querySelector(".copyCode").innerHTML = `background-image: linear-gradient(to right, ${rgb1} 0%, ${rgb2} 100%);`;
 };
 const changeGradient1 = () =>{
     rgb1 = hexNumber();
